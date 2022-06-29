@@ -1,4 +1,6 @@
-.pessoa {
+.pessoas {
     display: flex;
-    flex-direction: column;
+    padding-top: 3rem;
+    justify-content: space-around;
+
 }
