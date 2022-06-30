@@ -7,9 +7,28 @@
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    
-
 }
+
+.search {
+    border: none;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    padding-left: 46px;
+    background: url(../img/search.png) no-repeat 10px/24px, #fff;
+    cursor: pointer;
+    transition-property: width, border-radius, box-shadow;
+    transition-duration: 300ms;
+}
+
+.search:focus {
+    width: 240px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px #000000;
+    outline: none;
+    cursor: auto;
+}
+
 
 @media screen and (min-width: 0) {
     .cabecalho {
